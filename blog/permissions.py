@@ -3,7 +3,7 @@ from rest_framework.permissions import SAFE_METHODS
 
 
 class IsAdminOrReadOnly(BasePermission):
-    # SAFE_METHODS = ('GET', 'HEAD', 'OPTIONS')
+ 
     """
     The request is authenticated as a user, or is a read-only request.
     """
